@@ -93,12 +93,15 @@ export default function Hero() {
               >
                 <X size={28} />
               </button>
-              <video
-                src="/bim video.mp4"
-                controls
-                autoPlay
-                className="w-full rounded-lg"
-              />
+              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  src="https://www.youtube.com/embed/699jo9gnvk0?autoplay=1"
+                  title="BimmerX Tutorial"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full rounded-lg"
+                />
+              </div>
             </div>
           </div>
         )}
