@@ -18,19 +18,13 @@ export default function GetBimmerX() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-[#1C69D4] text-xs font-mono uppercase tracking-[0.2em] mb-4">
-            Get Started
-          </p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold chrome-text leading-tight mb-6">
-            Ready to upgrade your workshop?
+          <h2 className="text-4xl md:text-5xl font-extrabold chrome-text leading-tight mb-6">
+            Interested?
           </h2>
-          <p className="text-[#A0A4AB] text-lg leading-relaxed mb-10">
-            Contact us directly on WhatsApp for pricing, demos, and ordering.
+          <p className="text-[#A0A4AB] text-lg mb-10">
+            Contact us on WhatsApp for pricing and ordering.
           </p>
-
-          <WhatsAppButton label="Message us on WhatsApp" size="lg" />
-
-          <p className="mt-5 text-[#A0A4AB] text-sm">Response within 24 hours.</p>
+          <WhatsAppButton label="Get BimmerX" size="lg" />
         </motion.div>
       </div>
 

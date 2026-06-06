@@ -100,8 +100,7 @@ export default function FeaturedCapabilities() {
                   </div>
 
                   <h3 className="text-white font-bold text-xl mb-1">{item.title}</h3>
-                  <p className="text-[#1C69D4] text-xs font-medium mb-3">{item.tagline}</p>
-                  <p className="text-[#A0A4AB] text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-[#1C69D4] text-xs font-medium">{item.tagline}</p>
                 </div>
               </motion.div>
             );
